@@ -1,0 +1,84 @@
+/* Universal styles */
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #222629;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  width: 1200px;
+  border-left: 1px solid #474B4F;
+  border-right: 1px solid #474B4F;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+/*
+.img-left img,video {
+  width: 60%;
+}
+*/
+
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  margin-left: 24px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 24px;
+}
+
+nav ul li {
+  margin-left: 12px;
+}
+
+/* Main banner styles */
+.banner {
+  display: flex;
+  background-color: #D7D7D7;
+  border: 1px solid black;
+}
+
+.img-left img {
+  margin: 1.55rem 1.05rem;
+  width: 60%;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: left;
+}
+
+.button {
+  color: black;
+  background-color: #61892F;
+  width: 20%;
+  padding: 0.4rem 5rem;
+  margin-top: 2.5rem;
+}
+
+/* Information area styles */
+#information {
+  display: flex;
+}
