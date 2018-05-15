@@ -2,7 +2,7 @@
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
-  color: #222629;
+  color: #5D6D7E;
   display: flex;
   align-items: center;
 }
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -141,4 +141,57 @@ a:hover {
 
 .info-text p {
   margin-bottom: 1.1rem;
+}
+
+.info-text a {
+  color: #61892F;
+}
+
+/* Courses styles */
+#start {
+  text-align: center;
+  margin-top: 1.6rem;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.6rem 3.6rem;
+}
+
+.course-box {
+  width: 30%;
+  margin-top: 1.6rem;
+  margin-right: 1.6rem;
+}
+
+.course-box img {
+  width: 100%;
+}
+
+.course-box h3 {
+  margin: 0.8rem auto;
+}
+
+.course-text {
+  margin-bottom: 1.2rem;
+  margin-left: 0.8rem;
+}
+
+.course {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Thesis styles */
+.thesis h2 {
+  text-align: center;
+}
+
+#exhibit{
+  display: flex;
+}
+
+.img-left video {
+  width: 100%;
 }
