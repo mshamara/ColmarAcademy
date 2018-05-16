@@ -14,10 +14,10 @@
       <!-- Header -->
       <div class="header">
         <div class="logo">
-          <img src="./media/images/ic-logo.svg" alt="Colmar Academy">
-          <p><span class="name">COLMAR</span>ACADEMY</p>
+          <a href="#"><img src="./media/images/ic-logo.svg" alt="Colmar Academy"></a>
+          <p><a href="#"><span class="name">COLMAR</span>ACADEMY</p></a>
         </div>
-        <nav>
+        <nav class="screen">
           <ul>
             <li><a href="#">On Campus</a></li>
             <li><a href="#">Online</a></li>
@@ -25,11 +25,15 @@
             <li><a href="#">Sign in</a></li>
           </ul>
         </nav>
+        <nav class="mobile">
+          <img src="./media/images/ic-on-campus.svg" alt="On campus">
+          <img src="./media/images/ic-online.svg" alt="Online">
+          <img src="./media/images/ic-login.svg" alt="Login">
       </div>
 
       <!-- Main Banner -->
       <div class="banner">
-        <div class="img-left">
+        <div class="img-left" id="learn">
           <img src="./media/images/banner.jpg" alt="Learn something new">
         </div>
         <div class="banner-content">
@@ -52,7 +56,8 @@
         <div class="right-column" id="info">
           <div class="info-box">
             <div class="info-img">
-              <img src="./media/images/information-orientation.jpg" alt="Orientation">
+              <img class="desktop-img" src="./media/images/information-orientation.jpg" alt="Orientation">
+              <img class="mobile-img" src="./media/images/information-orientation-mobile.jpg" alt="Orientation">
             </div>
             <div class="info-text">
               <h3>Orientation date</h3>
@@ -62,7 +67,8 @@
           </div>
           <div class="info-box">
             <div class="info-img">
-              <img src="./media/images/information-campus.jpg" alt="campus">
+              <img  class="desktop-img" src="./media/images/information-campus.jpg" alt="campus">
+              <img class="mobile-img" src="./media/images/information-campus-mobile.jpg" alt="campus">
             </div>
             <div class="info-text">
               <h3>Our campus</h3>
@@ -70,9 +76,10 @@
               <a href="#">Read more</a>
             </div>
           </div>
-          <div class="info-box">
+          <div class="info-box" id="guest">
             <div class="info-img">
-              <img src="./media/images/information-guest-lecture.jpg" alt="Guest lecture">
+              <img class="desktop-img" src="./media/images/information-guest-lecture.jpg" alt="Guest lecture">
+              <img class="mobile-img" src="./media/images/information-guest-lecture-mobile.jpg" alt="Guest lecture">
             </div>
             <div class="info-text">
               <h3>Our guest lecture</h3>
@@ -144,12 +151,13 @@
       </div>
       <div class="two-columns" id="exhibit">
         <div class="img-left" id="urban">
-          <video src="./media/videos/thesis.mp4" type="video/mp4" controls></video>
+          <video controls type="video/mp4">
+          <source src="./media/videos/thesis.mp4"></video>
           <h3>Reimagine urban</h3>
           <p>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.""</p>
         </div>
-        <div class="right-column">
-          <div class="info-box">
+        <div class="right-column" id="exhibits">
+          <div class="info-box" id="fisma">
             <div class="info-img">
               <img src="./media/images/thesis-fisma.jpg" alt="Thesis">
             </div>

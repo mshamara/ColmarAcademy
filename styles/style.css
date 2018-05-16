@@ -43,7 +43,7 @@ h3 {
   display: flex;
   align-items: center;
   height: 50%;
-  margin-left: 24px;
+  margin-left: 2rem;
 }
 
 .name {
@@ -61,6 +61,33 @@ nav ul li {
 
 a:hover {
   color: #61892F;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .mobile {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    padding-right: 2rem;
+  }
+
+  .screen {
+    display: none;
+  }
+
+  .logo p {
+    display: none;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
 }
 
 /* Main banner styles */
@@ -83,13 +110,12 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  margin-left: 1.05rem;
-  margin-right: 2rem;
 }
 
 .banner-texts {
-  width: 80%;
-  font-weight: 700;
+  width: 70%;
+  font-weight: bold;
+  margin-left: 1.05rem;
 }
 
 .button {
@@ -100,6 +126,29 @@ a:hover {
   text-align: center;
 }
 
+@media only screen and (max-width: 1000px) {
+
+  .banner {
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  .img-left {
+    width: 100%;
+    margin: 0;
+  }
+
+  .banner-content {
+    width: 100%;
+    margin: 1.6rem 0.8rem;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+}
 
 /* Information area styles */
 #information {
@@ -113,11 +162,11 @@ a:hover {
 
 .right-column {
   width: 40%;
+  margin-top: 0.75rem;
 }
 
 .info-box {
   display: flex;
-  margin-top: 1.55rem;
   margin-right: 1rem;
   margin-left: 1.05rem;
 }
@@ -126,16 +175,22 @@ a:hover {
   width: 35%;
 }
 
+.mobile-img {
+  display: none;
+}
+
 .info-img img {
   width: 100%;
-  height: auto%;
+  height: auto;
+  padding: 1rem;
 }
 
 .info-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  width: 65%;
 }
 
 .info-text p {
@@ -144,6 +199,41 @@ a:hover {
 
 .info-text a {
   color: #61892F;
+}
+
+#guest, #fisma {
+  background-color: #CCD1D1;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  #practising {
+    display: none;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+
+  .info-box {
+    flex-direction: column;
+  }
+
+  .right-column, .info-img {
+    width: 100%;
+  }
+
+  .info-box {
+    margin: 0.8rem;
+  }
+
+  #guest {
+    background-color: #fff;
+  }
 }
 
 /* Courses styles */
@@ -182,6 +272,23 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
+@media only screen and (max-width: 1000px) {
+
+  .course-box img,p {
+    display: none;
+  }
+
+  .courses {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .course-box {
+    width: 90%;
+    background-color: #CCD1D1;
+  }
+}
+
 /* Thesis styles */
 .thesis h2 {
   text-align: center;
@@ -199,6 +306,17 @@ a:hover {
   margin-top: 1.2rem;
 }
 
+@media only screen and (max-width: 1000px) {
+
+  #urban h3,p {
+    display: none;
+  }
+
+  #exhibits {
+    display: none;
+  }
+
+}
 /* Footer styles */
 footer {
   font-size: 0.9rem;
@@ -211,3 +329,17 @@ footer {
 footer a {
   margin-left: 1rem;
 }
+
+@media only screen and (max-width: 1000px) {
+
+  footer {
+    background-color: #fff;
+  }
+
+  footer p {
+    display: block;
+  }
+
+  footer a {
+    display: none;
+  }
