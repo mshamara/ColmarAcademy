@@ -50,6 +50,10 @@ h3 {
   font-weight: 700;
 }
 
+a {
+  color: #5D6D7E;
+}
+
 nav ul {
   display: flex;
   margin-right: 24px;
@@ -94,7 +98,6 @@ nav ul li a:hover {
 .banner {
   display: flex;
   background-color: #CCD1D1;
-  text-align: center;
 }
 
 .img-left {
@@ -111,6 +114,7 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   width: 40%;
+
 }
 
 .banner-texts {
@@ -141,7 +145,8 @@ nav ul li a:hover {
 
   .banner-content {
     width: 100%;
-    margin: 1.6rem 0.8rem;
+    margin: 0.8rem auto;
+    text-align: center;
     align-items: center;
   }
 
@@ -268,6 +273,10 @@ nav ul li a:hover {
   margin-right: 1.6rem;
 }
 
+.course-box:hover {
+  background-color: #CCD1D1;
+}
+
 .course-box img {
   width: 100%;
 }
@@ -299,13 +308,13 @@ nav ul li a:hover {
   .courses {
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 1rem;
+    margin: 0;
   }
 
   .course-box {
     width: 90%;
     background-color: #CCD1D1;
-    margin: 0.4rem 0;
+    margin: 0.4rem auto;
   }
 }
 
@@ -316,6 +325,10 @@ nav ul li a:hover {
 
 #exhibit{
   display: flex;
+}
+
+#exhibits a {
+  color: #5D6D7E;
 }
 
 .img-left video {
